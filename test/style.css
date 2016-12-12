@@ -1,0 +1,139 @@
+body {
+    background: url("/test/images/bg-alley.jpg");
+    color: #fff;
+    font-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 1% 10%;
+    font-family: "ff-tisa-sans-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255,115,89);
+}
+.nav, .welcome, .folio {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {
+    text-align: right;
+    margin: 1.5625em auto;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav li {
+    display: inline;
+    padding-left: 1em;
+}
+.container {
+    margin: 3em auto;
+}
+.container h1, .container h2 {
+    font-family: "jubilat", sans-serif;   
+}
+.container h1 {
+    font-size: 4.5em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.0em;
+    margin-bottom: 0.25em; 
+}
+.container h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0.5em;
+    margin-bottom: 0.5em;
+}
+.container p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: 0.75em;
+}
+.thumbnails ul {
+    list-style-type: none;
+}
+/*.thumb {
+    width: 15.625em;
+    height: 8.813em;
+    margin: 0 .65em 3.75em 0;
+    display: inline-block;
+}*/
+.thumb img {
+    border-top-left-radius: .125em;
+    border-top-right-radius: .125em;
+    border-bottom-left-radius: .125em;
+    border-bottom-right-radius: .125em;
+    width: 100%;
+    height: auto;
+}
+
+/*@media only screen and (min-width: 750px) {
+    /* desktop */
+    /*.thumb_s {
+    width: 15.625em;
+    height: 8.813em;
+    margin: 0 .65em 3.75em 0;
+    display: inline-block;
+    }
+}*/
+/*@media only screen and (min-width: 320px) {
+    /* tablets */
+    /*.thumb_m {
+    width: 17.625em;
+    height: 9.938em;
+    margin: 0 .65em 4em 0;
+    display: inline-block;
+    }
+}
+*/
+
+/* Small Screens ----------- */
+@media only screen and (min-width: 320px) and (max-width: 589px) {
+/* Styles */
+.thumb_xl {
+    width: 19.15em;
+    height: 10.750em;
+    margin: 0 .65em 4.5em 0;
+    display: inline-block;
+    }
+}
+
+/* Medium Screens ----------- */
+@media only screen and (min-width: 590px) and (max-width: 789px) {
+/* Styles */
+.thumb_l {
+    width: 30em;
+    height: 16.875em;
+    margin: 0 .65em 6.5em 0;
+    display: inline-block;
+    }
+}
+
+/* Large Screens ----------- */
+@media only screen and (min-width: 790px) and (max-width: 998px) {
+/* Styles */
+.thumb_m {
+    width: 18.625em;
+    height: 10.5em;
+    margin: 0 .65em 4.3em 0;
+    display: inline-block;
+    }
+}
+
+/* X-Large Screens ----------- */
+@media only screen and (min-width : 999px) {
+/* Styles */
+.thumb_s {
+    width: 15.625em;
+    height: 8.813em;
+    margin: 0 .65em 3.75em 0;
+    display: inline-block;
+    }
+}
